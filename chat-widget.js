@@ -41,7 +41,7 @@
         input.value = '';
   
         // Realizar la petición al backend
-        fetch('http://localhost:3000/api/chat', {  // Reemplaza 'TU_DOMINIO_DEL_BACKEND' por la URL de tu servidor
+        fetch('http://localhost:3001/api/chat', {  // Reemplaza 'TU_DOMINIO_DEL_BACKEND' por la URL de tu servidor
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
